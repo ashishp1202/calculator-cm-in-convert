@@ -1,0 +1,38 @@
+.righello {transition:0.5s;position:relative;margin:0px;background:url('../images/20inch_v.png') no-repeat;width:100%;height:3cm;background-size:20in 3cm;}
+.empty {transition:0.5s;display:inline-block;position:absolute;top:0;left:0;vertical-align:middle;font-size:12pt;margin-top:0.4mm;margin-left:3px;padding:3px;background: rgb(242, 242, 242); color:#E30000;opacity:0;}
+.calibration {position:absolute;bottom:0;left:0;display:inline-block;vertical-align:middle;font-size:10pt;margin-bottom:0.7mm;margin-left:3px;}
+.descr {width:97%;padding-left:3px;padding-right:3px;max-width:728px;text-align:justify;margin-top:40px;color:#333333;font-size:10.8pt;}
+.footer {text-align:center;margin-top:30px;margin-bottom:5px;font-size:10pt;}
+ol {margin-left:0;padding-left:15px;}
+option {font-size:9pt;}
+optgroup.opt1[label="▨ Piccolo"] {font-size:9.5pt;}
+optgroup.opt2[label="▨ Medio"] {font-size:9.5pt;}
+optgroup.opt3[label="▨ Grande"] {font-size:9.5pt;}
+.spinnersoff::-webkit-inner-spin-button, ::-webkit-outer-spin-button {-webkit-appearance: none; -moz-appearance: none; appearance: none; margin: 0;}
+.spinnerson::-webkit-inner-spin-button, ::-webkit-outer-spin-button {-webkit-appearance: normal; -moz-appearance: normal; appearance: normal;}
+input:focus {outline: none;}
+select option[disabled='disabled'] {background: red;}
+
+
+input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+label {
+  color: #9a929e;
+  background: #f3f3f3;
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px 3px;
+}
+
+input[type="radio"]:checked + label {
+  color: #ccc8ce;
+  background: #675f6b;
+}
+
+label + input[type="radio"] + label {
+  border-left: solid 1px #675f6b;
+}
